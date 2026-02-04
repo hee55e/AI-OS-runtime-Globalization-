@@ -1,33 +1,33 @@
-# AI-OS-runtime-Globalization-
-Building an Ecosystem for the Era of Individual Sovereignty 
+# AI OS Runtime Globalization
+Building an ecosystem for the era of individual sovereignty.
 
+## North Star
+KAIT aims to be an AI OS runtime that lets each user assemble, operate, and evolve their own AI system without being locked to a single frontend, provider, or deployment shape.
 
-  세그먼트 구분을 통한 정교한 실시간 스트리밍성 보장
+## Runtime Pillars
+- Segment-based streaming for precise real-time interaction and rendering.
+- User-owned runtime state (sessions, configs, and local-first data patterns such as SQLite profiles).
+- Dual UX model for both power users and lightweight users.
+- First-class observability: logs, debug traces, and replay-friendly execution metadata.
+- Plugin-native architecture across processors, filters, handlers, connectors, and tools.
+- Graph-first orchestration with no hard cap on workflow complexity.
+- Frontend-agnostic runtime contract for web, desktop, and custom clients.
+- Built-in Studio + IDE capabilities for authoring and operations.
+- Tool/handler extensibility with MCP interoperability.
+- Trigger-driven proactive automation (event-first execution).
+- Stable recursion flow and bounded agent loops.
+- Multi-surface product model: Studio, IDE, Chat, and CLI.
+- Multi-transport compatibility: SSE, WebSocket, and RTC-oriented integrations.
+- HITL reliability and reproducibility as a core safety baseline.
+- Deployment portability with profile-based isolation for cloud/client/local environments.
 
-  개인 DB(SQlite) 제공
+## Practical Product Shape
+KAIT should feel like one runtime with many interfaces:
+- UI users operate through Studio.
+- AI operators can execute the same intent through CLI-compatible workflows.
+- Teams can bind context-specific AIs (graph, gallery, browser, plugin, etc.) while keeping one coherent runtime contract.
 
-  파워 유저 / 라이트 유저 편의 제공
-
-  로그 디버그
-
-  다양한 플러그인 구조
-
-  제한 없는 각기 다른 AI 그래프 생성
-
-  프론트엔드 무종속 개인 플랫폼 및 개인 환경에 이용 가능
-
-  기본적인 IDE 제공
-
-  제한 없는 도구와 핸들러 생성 및 MCP 지원 
-
-  트리거를 통한 AI 선행 주도
-
-  깔끔한 재귀 흐름
-
-  스튜디오 성 / IDE 성 / 챗봇 성 / CLI 성
-
-  SSE / 웹소켓 / RTC 등 다중 환경 대응
-
-  HITL(Human in the Loop) 안정성 재현성
-
-  클라우드, 클라이언트, 로컬 등 다양한 사용자 격리 프로필 배포 환경
+## Current Reality (Sync Notes)
+- Core graph orchestration, segment streaming, and registry-based extensibility are implemented.
+- Some experiences are intentionally in-progress (for example, unified onboarding flow and full primary-AI control plane).
+- This README describes the target operating model; implementation details must always be validated against code.
